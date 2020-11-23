@@ -22,10 +22,10 @@ require (
 	k8s.io/kube-openapi v0.0.0-20190603182131-db7b694dc208 // indirect
 	k8s.io/kubernetes v1.16.0
 	k8s.io/utils v0.0.0-20190607212802-c55fbcfc754a // indirect
-	yunion.io/x/jsonutils v0.0.0-20201014025429-7ce189228db6
+	yunion.io/x/jsonutils v0.0.0-20201110084044-3e4e1cb49769
 	yunion.io/x/log v0.0.0-20200313080802-57a4ce5966b3
 	yunion.io/x/onecloud v0.0.0-20201019035712-93d682503e2d
-	yunion.io/x/pkg v0.0.0-20200814072949-4f1b541857d6
+	yunion.io/x/pkg v0.0.0-20201028134817-3ed15ee169bc
 	yunion.io/x/structarg v0.0.0-20200720093445-9f850fa222ce
 )
 
@@ -53,4 +53,5 @@ replace (
 	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.0.0-20190620090156-2138f2c9de18
 	k8s.io/metrics => k8s.io/metrics v0.0.0-20190620085625-3b22d835f165
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.0.0-20190620085408-1aef9010884e
+	yunion.io/x/onecloud => ../onecloud
 )
